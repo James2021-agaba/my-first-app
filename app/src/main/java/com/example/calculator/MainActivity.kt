@@ -64,7 +64,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun evaluateExpression(expression: String): Double {
         // A simple parser to handle order of operations (PEMDAS/BODMAS)
-        // 1. Tokenize the string
         val tokens = mutableListOf<Any>()
         val numberBuilder = StringBuilder()
 
